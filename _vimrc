@@ -2,6 +2,8 @@
 source $VIMRUNTIME/vimrc_example.vim
 
 " vim custom
+
+set relativenumber
 set number
 syntax on
 colorscheme desert
