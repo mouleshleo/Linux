@@ -68,7 +68,7 @@ set rnu
 syntax on                 " Enable syntax highlighting
 colorscheme desert        " Set colorscheme to desert
 set mouse=a               " Enable mouse support
-inoremap jj <Esc>         " Map 'jj' to Escape in insert mode
+inoremap jk <Esc>         " Map 'jj' to Escape in insert mode
 au GUIEnter * simalt ~x   " Close GUI Vim with Alt+F4
 set hls                   " Highlight search results
 set is                    " Incremental search
