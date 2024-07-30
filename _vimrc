@@ -6,9 +6,12 @@ source $VIMRUNTIME/vimrc_example.vim
 set relativenumber
 set number
 syntax on
+set noswapfile
+set nowritebackup
+set nobackup
 colorscheme desert
 set mouse=a
-inoremap jj <Esc>
+inoremap jk <Esc>
 au GUIEnter * simalt ~x
 set hls
 set is
